@@ -1,0 +1,159 @@
+
+
+
+
+<!DOCTYPE html>
+<html "es">
+
+<head id="Head1"><link rel="apple-touch-icon" sizes="57x57" href="Images/iconos/apple-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="Images/iconos/apple-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="Images/iconos/apple-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="Images/iconos/apple-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="Images/iconos/apple-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="Images/iconos/apple-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="Images/iconos/apple-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="Images/iconos/apple-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="Images/iconos/apple-icon-180x180.png" /><link rel="icon" type="image/png" sizes="192x192" href="Images/iconos/android-icon-192x192.png" /><link rel="icon" type="image/png" sizes="32x32" href="Images/iconos/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="96x96" href="Images/iconos/favicon-96x96.png" /><link rel="icon" type="image/png" sizes="16x16" href="Images/iconos/favicon-16x16.png" /><link rel="manifest" href="Images/iconos/manifest.json" /><link href="Script/js/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="css/estilo.css" rel="stylesheet" type="text/css" /><link href="Script/js/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="script/js/toast-master/css/jquery.toast.css" rel="stylesheet" type="text/css" /><meta name="msapplication-TileColor" content="#ffffff" /><meta name="msapplication-TileImage" content="/ms-icon-144x144.png" /><meta name="theme-color" content="#ffffff" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	IPS Seguro Escolar - Login
+</title>
+    
+    <style type="text/css" >
+        
+        body
+        {
+            padding: 50px;
+            background-color: #eee;
+            
+        }
+        
+        .form-signin
+        {
+            max-width: 350px;
+            padding: 35px;
+            margin: 0 auto;
+            background-color: white;            
+            border: 2px solid;
+            border-radius: 15px;
+        }
+        
+        .modal-header, h4, .close 
+        {
+            background-color: #5cb85c;
+            color:white !important;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .modal-footer 
+        {
+        background-color: #f9f9f9;
+        }
+        
+    </style>
+    
+</head>
+<body>
+
+<form name="form1" method="post" action="login.aspx" id="form1" class="form-signin">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTI3MTA2MzU5MQ9kFgICAw9kFgICCQ8PFgQeBFRleHRlHgdWaXNpYmxlaGRkZKI2awti0VHYuSIpP0YuXaTNzhkZ" />
+
+
+<script src="/SeguroEscolar/ScriptResource.axd?d=0TxgyhiFJ9KbSvlZe5o9btsSnhseUMqlNWQk3-oIlPj5fVCqh1DqrMGXCmS2keOSTYFzlBPFm2us_s7RUM2PbDEGrZZARBuB7wxEP68vlRBq91lT6KS2PubeUe0TuTzqcAsCbS1GihDRmLwfKLGmsCGNEBXkpN1-YxR1cT6h5NQtSFL70&amp;t=ffffffffc7ada96b" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="Script/js/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="Script/js/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="Script/Script_v6.js" type="text/javascript"></script>
+<script src="Script/js/toast-master/js/jquery.toast.js" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALogYHCBwKl1bKzCQK1qbSRCwKC3IeGDC2ZKeBTwb5gqba2HTaTdUHT1l4o" />
+    
+    
+    <div class="container">
+       <div class="row" >       
+            <div class="col-md-3 col-sm-3 col-xs-12 ">          
+                <div class="form-horizontal">
+                   
+                    <div class="form-group">
+                       <div style="width:100%; height:100%; text-align:center;">                            
+                           <img src="Images/LogoIPS.png" alt="" />                            
+                            <h1>Seguro Escolar</h1>                   
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input name="txtUserName" type="text" id="txtUserName" placeholder="Usuario" class="form-control" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <input name="txtPassword" type="password" id="txtPassword" placeholder="Contraseña" class="form-control" required="required" />
+                    </div>                    
+                    <div class="form-group">
+                        <input type="submit" name="btnLogin" value="Iniciar Sesión" id="btnLogin" class="btn btn-lg btn-primary btn-block" />
+                    </div>
+                    <div class="form-group">
+                        <a href="javascript:void(0);" class="pull-left"  onclick="mostrar()"><i class="fa fa-user"></i> Nuevo Usuario</a>                           
+                        <a href="recover.aspx" id="to-recover" class="pull-right"><i class="fa fa-lock"></i> Olvidé Mi Contraseña</a>                                
+                    </div>
+                    <div class="form-group " >
+                        <div class="alert alert-danger text-center oculto" id="info1">
+                             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <strong>Atención! </strong>
+                            
+                        </div>
+                    </div> 
+                
+                </div>
+            </div>      
+        </div>        
+    </div> 
+    
+   <div class="modal fade" id="myModal" >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Solicitud de nuevo usuario.</h4>
+      </div>
+      <div class="modal-body">
+         <div class="form-horizontal">
+             <div class="col-md-12 col-sm-12 col-xs-12">
+                 <p>Para crear un nuevo usuario envíe los siguientes datos, sin excepción, a la casilla de correo: <b>informatica@ipssalta.gov.ar</b></p>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-check"></i> Nro / Nombre del Establecimiento (indicar expresamente si corresponde a un anexo de otro establecimiento).</label>
+             </div>
+              <div class="form-group">
+                 <label class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-check"></i> Nro de la Comisaría (indicar expresamente el número, barrio, localidad, DUR, sector y cualquier otro dato que identifique unívocamente al cuerpo infantil en toda la provincia). </label>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-check"></i> Número de documento.</label>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-check"></i> Nombre completo.</label>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-12 col-sm-12 col-xs-12"><i class="fa fa-check"></i> Fecha de nacimiento.</label>
+             </div>
+         </div>       
+      </div>
+      
+      <div class="modal-footer">        
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-sign-out"></i> Cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+<script type="text/javascript">
+    function mostrar(){        
+        $('#myModal').modal('show'); 
+    }
+
+    $(document).ready(function () {
+        IniciarLogin();
+    })    
+</script>   
+</body>
+</html>
+

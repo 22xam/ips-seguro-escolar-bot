@@ -1,0 +1,285 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	IPS Seguro Escolar - Planilla Alumnos
+</title><link href="../Script/js/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/iCheck/skins/flat/green.css" rel="stylesheet" type="text/css" /><link href="../Script/js/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="../Script/js/pnotify/dist/pnotify.css" rel="stylesheet" type="text/css" /><link href="../Script/js/pnotify/dist/pnotify.buttons.css" rel="stylesheet" type="text/css" /><link href="../Script/js/sweetalert/sweetalert.css" rel="stylesheet" type="text/css" /><link href="../Script/js/pnotify/dist/pnotify.nonblock.css" rel="stylesheet" type="text/css" /><link href="../css/estilo.css" rel="stylesheet" type="text/css" />     
+</head>
+<body>
+
+    <form name="aspnetForm" method="post" action="/SeguroEscolar/(F(kuaAs7xE03tGH4K0CGUOrjUwNJB0cJc-OLEbPDaHsM5G_si3Uco33K8fZ0JInNKDIbObR7Ty6Bj29jxNWhlbfs5-6V8HNu6Nw4fG9ytBIjYOilWiYa_T8LGyGL0T4NIw57g4LQYwqmZKT33Gu_rxwRQSVjs1))/Seguro/GesPlanillaAdministrar.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWBAIDDw8WAh4EVGV4dAUIbWdzdWFyZXpkZAIFDw8WAh8ABUozMTQwIC0gRVNDVUVMQSBERSBFRFVDQUNJT04gVEVDTklDQSBEUi5GUkFOQ0lTQ08gREUgR1VSUlVDSEFHQSBFWCBOwrogNTE0MGRkZNGEIptiUbljN2rjFhs57iIauI+n" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = '{"name":"es-ES","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NeuN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinito","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Infinito","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135586000000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, dd\u0027 de \u0027MMMM\u0027 de \u0027yyyy H:mm:ss","LongDatePattern":"dddd, dd\u0027 de \u0027MMMM\u0027 de \u0027yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM\u0027 de \u0027yyyy","AbbreviatedDayNames":["dom","lun","mar","mié","jue","vie","sáb"],"ShortestDayNames":["do","lu","ma","mi","ju","vi","sá"],"DayNames":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"AbbreviatedMonthNames":["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic",""],"MonthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic",""],"MonthGenitiveNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""]}}';//]]>
+</script>
+
+<script src="/SeguroEscolar/ScriptResource.axd?d=0TxgyhiFJ9KbSvlZe5o9btsSnhseUMqlNWQk3-oIlPj5fVCqh1DqrMGXCmS2keOSTYFzlBPFm2us_s7RUM2PbDEGrZZARBuB7wxEP68vlRBq91lT6KS2PubeUe0TuTzqcAsCbS1GihDRmLwfKLGmsCGNEBXkpN1-YxR1cT6h5NQtSFL70&amp;t=ffffffffc7ada96b" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/SeguroEscolar/ScriptResource.axd?d=Uzt3_a9VtIiplLRIPia636QNlZeDSpkcTbm21w6X-qbkqlriHnHFGZbYKe_XqBhvD8cyLo7TecoZaiCdAvsgvWyilUbmQRDHQNN81dceum6tlZZjMBvcrgjl6WRaugR33L4hgPiANmBbBbnTmt3DpyhDDNaJYI2ctXkURQrAWb_FvU5VrA1dm-Ir6jCHXKdHMHsgoIfUuFn2amPyIhcZOiRpzlJ5QjEssAp4FR7a4M4EiTrohn7sSBdAFvXi5BcyCoO2D0ojQr8Duc9N79Bf09ENevSJD85XdO9JOBNDmIKrU6WnrG7zEZcAvoYTYyZxt4EMNYOSf6R8V1wyFzpT2R3sjJdiZ4y8r6yknxCkISp26H4qNn0bAeP-NOjOmJPBp7QSeTSLXr5N1hK1jp-8oe_ANZXhrXgP_-23GiqhEeBGmOZolzET0y_N7SXV0StbDI8If3F0Uly8zPvk0TOlbHybIYLPFxkhCEseO4srN6Qerrmr2nOvdcuFkDptheCZPK8LIA3MTbK_JnIxddGj9hPT_hjysdeyfsjg26HG0rzW_hZkPyHxux7UenCmDQLO6kLVbAOZHc1csleeKGd4YkrfAzYz35eaP4-gqUIM6yCSOWikkvB8G7tkZ3LnvGcCxPVp2clFVJFu2fRg6ZH-ih_DO8AFBdJP3_Orw4M7gXvFAOM0z4rMHRkoH71UcFGBA8gQito-hz9p7MCXjDdvtccQtK39Hyrz2QilMhSGO4aPmuX1kCm9nVMI32LVRxukxU6tPYOaiRgLpqbBnASDeksBXJXkDFmCpfoXWdfZS6yqVpe5k09QzK3zDo3yoDYwHi-NGA7bV2muSaXOgb498xoB19zbgjg-yoXY98K7PDFzFUxzCf7p41CkuMw4z_WAF_1pgjc05QZPTvImrlUfEXzN_gd4yKyeb0iPlpylXfMZVwj60" type="text/javascript"></script>
+    
+         
+<div class="container">
+   
+    <div class="bg-primary text-white" >
+      <div class="container text-center">
+      
+          <div class="col-md-4 col-sm-6 col-xs-12"> 
+              <a href="https://www.ipssalta.gov.ar" target="_blank">  <img src="../Images/LogoIPS.png" alt="IPSS" style="margin-top: 10px; margin-bottom: 10px" /> </a>
+          </div>
+          
+          <div class="col-md-4 col-sm-6 col-xs-12" style="margin-top: 5px;">
+              <h3>Seguro Escolar</h3>
+              <h2>Instituto Provincial de Salud de Salta</h2>
+          </div>
+          
+           <div class="col-md-4 col-sm-6 col-xs-12" style="margin-top: 25px; margin-bottom: 10px">
+              <span id="ctl00_lUsuario">mgsuarez</span>
+              <a type="submit" href="../seguro/SegUsuarioClave.aspx" class="btn btn-default" title="Usuario">
+              <span class="glyphicon glyphicon-user"></span></a>
+              <a type="submit" href="../logout.aspx" class="btn btn-default" title="Cerrar Sesión">
+              <span class="glyphicon glyphicon-off"></span></a>
+          </div>
+              
+      </div>
+    </div>
+    
+      <!-- Static navbar -->
+      <div class="navbar navbar-default">     
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div class="navbar-collapse collapse">
+        
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size:22px; font-weight: bold"  href="../Seguro/SegEstablecimiento.aspx"> 
+                            <span id="ctl00_lEstablecimiento">3140 - ESCUELA DE EDUCACION TECNICA DR.FRANCISCO DE GURRUCHAGA EX Nº 5140</span> 
+                    </a>
+                </li>
+            </ul>
+        
+          <ul class="nav navbar-nav">            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menú<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li> <a id="ctl00_lnkAdminPlanillas" href="GesPlanillaAdministrar.aspx">Administración de Planillas</a></li>
+                <li> <a id="ctl00_lnkPlanillaHistorial" href="SegPlanillaHistorial.aspx">Historial de Planillas</a></li>
+                 <li> <a id="ctl00_lnkDatosEstablecimiento" href="SegEstablecimiento.aspx">Datos del Establecimiento</a></li> 
+                 <li> <a id="ctl00_lnkInformacion" href="SegInformacion.aspx">Beneficios y Requisitos</a></li> 
+                 <li> <a id="ctl00_lnkBuscarAlumno" href="SegAlumnoBuscar.aspx">Buscar Alumno</a></li> 
+                 <li> <a id="ctl00_lnkSalir" href="../logout.aspx">Salir</a></li> 
+              </ul>
+            </li>
+            
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Manual y Declaración<b
+              class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li> <a id="ctl00_lnkManual" href="ManualdeUsuarioSeguroEscolarWeb.pdf" target="_blank">Manual de Usuario</a></li> 
+                  <li> <a id="ctl00_HyperLink1" href="IPS%20-%20Declaraci%C3%B3n%20de%20Siniestro.pdf" target="_blank">Declaración de Siniestro</a></li> 
+              </ul>
+            </li>            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+          
+    <div>
+        
+
+<div class="container">
+      <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Administrar Planillas de Alumnos</h2>
+                    <div class="clearfix"></div>                    
+                  </div> 
+                            <table  id="tblPlanilla" class="table table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+                                <thead>
+                                    <tr>                                    
+                                        <th>Nº</th>
+                                        <th>Tipo</th>
+                                        <th>Turno</th>
+                                        <th>Alumnos</th>
+                                        <th>Importe</th>                                       
+                                        <th>Fecha Alta</th>
+                                        <th>Fecha Cierre</th> 
+                                        <th>Fecha Pago</th> 
+                                        <th>Ver</th>
+                                        <th>Pagar</th>                 
+                                    </tr>
+                                </thead>
+                                <tbody>                                                                
+                                </tbody>
+                            </table>                  
+                            
+                            <div class="row button-group">                           
+                                <div class=" col-md-2 col-sm-4 col-xs-12">
+                                    <a href="javascript:void(0);" id="btnNuevaPlanilla" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite crear una nueva planilla ingresando los datos básicos para ella, como por ejemplo el tipo de declaración, y el turno.">
+                                    <i class="fa fa-file"></i> Nueva</a>
+                                </div>
+                                <div class=" col-md-2 col-sm-4 col-xs-12">
+                                    <a href="javascript:void(0);" id="btnPlanillaDetalle" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Seleccione una planilla, que no esté finalizada, a la que desea agregar alumnos.">
+                                    <i class="fa fa-plus"></i> Completar</a>
+                                </div>
+                                <div class=" col-md-2 col-sm-4 col-xs-12">
+                                    <a href="javascript:void(0);" id="btnFinalizarPlanilla" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite finalizar una planilla a la que ya se ingresaron los alumnos.">
+                                    <i class="fa fa-save"></i> Finalizar</a>
+                                </div>
+                                <div class=" col-md-2 col-sm-4 col-xs-12">
+                                    <a href="javascript:void(0);" id="btnAnularPlanilla" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite anular una planilla con todos los datos ingresados.">
+                                    <i class="fa fa-remove"></i> Anular</a>
+                                </div>                              
+                                <div class=" col-md-2 col-sm-4 col-xs-12">
+                                    <a href="javascript:void(0);" id="btnImprimirPlanilla" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite generar la impresión que debe presentar al momento de realizar el pago.">
+                                    <i class="fa fa-download"></i> DD.JJ. PDF</a>
+                                </div>                    
+                                <div class="col-md-2 col-sm-4 col-xs-12" id="cobertura">
+                                    <a href="javascript:void(0);" id="btnImpComprobante" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite generar la impresión Constancia de Cobertura de Alumnos.">
+                                    <i class="fa fa-download"></i> Cobertura PDF</a>
+                                </div>
+                             </div>    
+                            <div class="row button-group">     
+                                <div class="col-md-2 col-sm-4 col-xs-12" id="btnConstancia">
+                                    <a href="javascript:void(0);" id="btnImpConstanciaPago" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="top" title="Permite generar la impresión de la Constancia de Pago del Establecimiento.">
+                                    <i class="fa fa-download"></i> Constancia de Pago</a>
+                                </div>
+                          </div>        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">IPS - Seguro Escolar</h4>
+      </div>
+      <div class="modal-body">
+         <div class="form-horizontal">            
+             <div class="form-group">
+                 <label class="col-md-4 col-sm-6 col-xs-12 control-label">Tipo Declaración:</label>
+                 <div class="col-md-4 col-sm-6 col-xs-12">
+                     <select id="ddlTipoDeclaracion" class=" form-control dropdown">                        
+                     </select>
+                 </div>
+             </div>
+              <div class="form-group">
+                <label class="col-md-4 col-sm-6 col-xs-12 control-label">Turno:</label>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <select id="ddlTurnos" class="form-control">                       
+                    </select>
+                </div>
+            </div>          
+         </div>    
+      </div> 
+    
+      <div class="modal-footer">        
+        <button type="button" id="btnAgregarPlanilla" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i> Aceptar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-sign-out"></i> Cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+        
+     <div class="modal fade" id="ModalConsultaDeuda" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-content container-fluid">
+                <div class="modal-header bg-primary text-white font-bold">
+                    <h5>Listado de Planillas con Deuda o Falta de Documentación de Seguro Escolar</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group-sm row">
+                        <div class="col-12">
+                            <table  id="tblPlanillasDeuda" class="table table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>                                    
+                                    <th>Nº Planilla</th>
+                                    <th>Tipo</th>
+                                    <th>Alumnos</th>
+                                    <th>Importe</th>                                       
+                                    <th>Fecha Alta</th>
+                                    <th>Fecha Cierre</th>  
+                                    <th>DD.JJ.</th>                           
+                                </tr>
+                            </thead>
+                            </table>
+                        </div>
+                    </div>
+                     
+                    <div class="form-group-sm row">
+                        <label class="col-12 col-form-label-sm text-center font-italic"> El establecimiento se encuentra bloqueado por deuda (planillas Aportante) o falta de documentación (planillas Carente) de años anteriores. Comuníquese exclusivamente con el sector Cobranzas al 432-3196 o por correo electrónico a 'seguroescolar@ipssalta.gov.ar' informando estos números de planillas para obtener mas información. </label>
+                    </div>
+                </div>
+            <div class="modal-footer">        
+                <button type="button" class="btn btn-danger" data-dismiss="modal" >LEÍ Y ENTENDÍ ESTE MENSAJE</button> 
+            </div>
+      </div>
+     </div>
+   
+<script type="text/javascript">
+     ListarPlanillasDeuda();
+</script>
+
+    </div>
+      
+      <div class="footer">
+        <div class="text-center">
+            <p>Instituto Provincial de Salud de Salta | Todos los Derechos Reservados</p>
+        </div>        
+      </div>
+      
+   </div> <!-- /container -->
+
+<div id="idle-timeout-dialog" data-backdrop="static" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Tu sesión caducará pronto...</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fa fa-warning font-red"></i> Tu sesión estará bloqueada en
+                        <span id="idle-timeout-counter"></span> segundos.</p>
+                    <p> ¿Quieres continuar trabajando?. </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button id="idle-timeout-dialog-keepalive" type="button" class="btn btn-success" data-dismiss="modal">Si, seguir trabajando.</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <script type="text/javascript">  
+    </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    </body>
+</html>

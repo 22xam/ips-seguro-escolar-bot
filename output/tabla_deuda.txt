@@ -1,0 +1,2 @@
+Nº	Tipo	Turno	Alumnos	Importe	Fecha Alta	Fecha Cierre	Fecha Pago	Ver	Pagar
+78393	Aportante	Noche	8	$35.200,00	27/03/2025				
