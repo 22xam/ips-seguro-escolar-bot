@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Carga las variables desde .env si estás en local
+load_dotenv()
 
-USERNAME = os.getenv("USERNAME")
-PASSWORD = os.getenv("PASSWORD")
+USERNAME = os.getenv("IPS_USERNAME")
+PASSWORD = os.getenv("IPS_PASSWORD")
